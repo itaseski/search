@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+
+<ul>
+  {% for part in parts %}
+    <li>
+      {{ part.part_number }}, {{ part.designation }}
+    </li>
+  {% endfor %}
+</ul>
